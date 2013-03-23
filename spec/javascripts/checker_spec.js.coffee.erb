@@ -1,0 +1,7 @@
+examples = <%= File.open(File.expand_path('../../examples.json', __FILE__)).read %>
+
+describe 'PasswordStrengthValidator', ->
+
+  for pwd, score of examples
+    it "gives #{score} for password '#{pwd}'", ->
+      expect(PasswordStrengthValidator.getPasswordStrength(pwd)).toEqual score

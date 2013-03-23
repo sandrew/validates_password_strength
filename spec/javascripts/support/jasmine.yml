@@ -1,0 +1,8 @@
+src_dir: tmp/js
+spec_dir: tmp/js
+
+src_files:
+  - validates_password_strength.js
+
+spec_files:
+    - checker_spec.js
