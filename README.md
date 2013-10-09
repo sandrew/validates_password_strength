@@ -8,7 +8,7 @@ This gem was created with following ideas in my head:
 
 ## Warning
 
-Algorithm implemented for password strength measurement is simple because I have no cryptography skills. Your help in enhancing it with pull requests or at least formal algorithm description (so I can implement it) will be hardly appreciated.
+Algorithm implemented for password strength measurement is simple because I have no cryptography skills. Your help in enhancing it with pull requests or at least formal algorithm description (so I can implement it) will be strongly appreciated.
 
 ## Installation
 
